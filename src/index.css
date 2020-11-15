@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  
+}
+.App{
+  display:flex;
+  justify-content: center;
+  width:450px;
+  position: absolute;
+  top:30%; 
+  left:50%;
+  transform: translateX(-50%);
+  border: 5px solid black;
+  padding: 20px;
+  background-color: rgb(150, 185, 228);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.381);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profilimg img {
+  width:180px;
+  margin-right:20px;
+}
+
+.name p, .adress p {
+  font-size: 20px;
+}
+.name p span, .adress p span{
+  font-weight: 600;
 }
